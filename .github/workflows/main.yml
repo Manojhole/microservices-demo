@@ -17,7 +17,7 @@ jobs:
             dockerfile: src/adservice/Dockerfile
 
           - service: cartservice
-            context: src/cartservice
+            context: src/cartservice/src
             dockerfile: src/cartservice/src/Dockerfile
 
           - service: checkoutservice
